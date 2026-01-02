@@ -33,6 +33,3 @@ codebook_cursorrules.md
 cursorrules.atlasti
 
 # Contact Us
-We are an AI human security group at Leiden University.
-
-Any questions? Contact us: s.sun@liacs.leidenuniv.nl
