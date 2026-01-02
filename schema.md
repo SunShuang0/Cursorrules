@@ -1,4 +1,6 @@
-Database Structure
+# Database Structure
+
+## Table: files
 ```sql
 CREATE TABLE files (
             raw_md5 TEXT PRIMARY KEY,
@@ -38,6 +40,10 @@ CREATE TABLE files (
             repo_updated_at TEXT,
             file_url TEXT NOT NULL
         );
+```
+
+## Table: repos
+```sql
 CREATE TABLE repos (
             raw_md5 TEXT PRIMARY KEY,
             repo_id INTEGER NOT NULL,
@@ -64,6 +70,10 @@ CREATE TABLE repos (
             repo_wiki TEXT,
             repo_discussion TEXT
         );
+```
+
+## Table: users
+```sql
 CREATE TABLE users (
             raw_md5 TEXT PRIMARY KEY,
             user_id INTEGER NOT NULL,            
@@ -84,6 +94,10 @@ CREATE TABLE users (
             user_company TEXT,
             user_blog TEXT
         );
+```
+
+## Table: creators
+```sql
 CREATE TABLE creators (
             raw_md5 TEXT PRIMARY KEY,
             creator_id INTEGER NOT NULL,            
@@ -104,6 +118,10 @@ CREATE TABLE creators (
             creator_company TEXT,
             creator_blog TEXT
         );
+```
+
+## Table: commits
+```sql
 CREATE TABLE commits (
             raw_md5 TEXT NOT NULL,
             commit_sha TEXT NOT NULL,
@@ -124,14 +142,23 @@ CREATE TABLE commits (
             file_commits_url TEXT NOT NULL,
             PRIMARY KEY (raw_md5, commit_sha)
         );
+```
+
+## Table: commit_file_counts
+```sql
 CREATE TABLE commit_file_counts (
     raw_md5 TEXT NOT NULL,
     commit_sha TEXT NOT NULL,
     file_count INTEGER,
     PRIMARY KEY (raw_md5, commit_sha)
 );
+```
+
+## Table: repo_size
+```sql
 CREATE TABLE repo_size (
             repo_id INTEGER PRIMARY KEY,
             repo_files_count INTEGER
         );
 ```
+
