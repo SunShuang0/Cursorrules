@@ -144,16 +144,6 @@ CREATE TABLE commits (
         );
 ```
 
-## Table: commit_file_counts
-```sql
-CREATE TABLE commit_file_counts (
-    raw_md5 TEXT NOT NULL,
-    commit_sha TEXT NOT NULL,
-    file_count INTEGER,
-    PRIMARY KEY (raw_md5, commit_sha)
-);
-```
-
 ## Table: repo_size
 ```sql
 CREATE TABLE repo_size (
