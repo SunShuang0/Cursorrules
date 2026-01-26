@@ -9,7 +9,6 @@ Here, we share the materials we produced in this study:
 - The codebook: codebook_cursorrules.md
 - The ATLAS.ti project pack: cursorrules.atlasti
 
-
 ## Overview of the study
 Prompts are the primary mechanism for communicating with AI agents and directly influence the quality and reliability of AI-generated code. As AI-assisted programming becomes widely adopted, modern tools increasingly combine dynamic conversational prompts with static configuration-like prompt files. Despite the growing trend, prior research has primarily focused on conversational prompts, while prompt files remain understudied.
 
@@ -46,10 +45,60 @@ The whole dataset will be shared once the paper is accepted.
 
 
 ## Qualitative Analysis
+### Top 10 codes in .cursorrules and .mdc files
+
+\begin{table*}[t]
+\centering
+\caption{Top 10 Most Frequent Codes in \texttt{.cursorrules} Files (frequency, short definition, representative excerpt).}
+\label{tab:cursor_top_codes}
+\scalebox{.88}{
+\begin{tabular}{p{6.3cm}p{1cm}p{11.3cm}}
+\toprule
+Code (short) & Freq & Representative excerpt \\
+\midrule
+Languages, Stacks \& Usage Guidance & 10.3\% & ``FastAPI backend developer with deep knowledge of Python 3.11+.'' \\
+Exclusion Behaviors & 5.8\% & ``Avoid unnecessary curly braces in conditionals'' \\
+Tool Usage & 5.3\% & ``You could use the tools/web\_scraper.py file to scrape the web.'' \\
+Performance Optimization & 4.4\% & ``Use Python 3.11+ features for improved performance and type safety.'' \\
+Coding Style & 3.6\% & ``Write concise, technical TypeScript code with accurate examples.'' \\
+Code Readability \& Maintainability & 3.5\% & ``Refactor to improve readability and reduce future maintenance cost.'' \\
+Error \& Exception Handling & 3.2\% & ``Use early returns and guard clauses; Implement proper exception handling'' \\
+Naming Conventions & 3.2\% & ``Use descriptive variable names with proper prefixes'' \\
+\textbf{Security Awareness, Mechanisms \& Practices} & 3.0\% & ``Follow security best practices. Validate all input data. Protect against common vulnerabilities. Handle sensitive data appropriately.'' \\
+Project Structure \& Architecture & 2.6\% & ``<directory\_structure>: api/ API documentation and Swagger files ...'' \\
+\bottomrule
+\end{tabular}
+}
+\end{table*}
+
+### Top 10 codes in .mdc files
+\begin{table*}[t]
+\centering
+\caption{Top 10 Most Frequent Codes in \texttt{.mdc} Files}
+\label{tab:mdc_top_codes}
+\scalebox{.88}{
+\begin{tabular}{p{6.3cm}p{1cm}p{11.3cm}}
+\toprule
+Code (short) & Freq & Representative excerpt \\
+\midrule
+Languages, Stacks \& Usage Guidance & 12.2\% & ``... modern frontend development with Next.js 15 and React 18'' \\
+Coding Example/Template & 6.8\% & ``Good: `A["User Input"] --> B["Validate Data"];` Bad (potential error): `A[User Input] --> B[Validate Data];`'' \\
+Exclusion Behaviors & 6.2\% & ``Do NOT use Unix/Linux commands that don't exist on Windows.'' \\
+Project Structure \& Architecture & 5.9\% & ``Assume a modular structure: `app/`, `components/`, `lib/`, `shared/`, `routes/`'' \\
+Frontend/UI Practices & 5.1\% & ``Use Shadcn UI, Radix, and Tailwind for components and styling.'' \\
+Rule File Description, Scopes \& Nested Structures & 5.1\% & ``This document defines how Cursor (or any AI) should generate code for this project to prevent unintended results, maintain consistency, and improve developer experience.'' \\
+Tool Usage & 5.1\% & ``Install Shadcn/UI components with `pnpm dlx shadcn@latest add <component-name>`'' \\
+Cursor Development Behavior Guidance & 3.9\% & ``Always look at the example ... Fully implement all requested functionality.'' \\
+Naming Conventions & 2.7\% & ``PascalCase for components, camelCase for functions and variables'' \\
+Best Practices & 2.4\% & ``Follow memory management best practices'' \\
+\bottomrule
+\end{tabular}
+}
+\end{table*}
+
 ### Codebook
 codebook_cursorrules.md
 
 ### ATLAS.ti project pack
 cursorrules.atlasti
 
-# Contact Us
