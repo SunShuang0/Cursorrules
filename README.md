@@ -3,7 +3,7 @@ This is a study of .cursorrules files in GitHub open source projects.
 
 Here, we share the materials we produced in this study:
 - The rawler script: crawler_cursorrules
-- The repo files counting script: files_count.py
+- The repo files counting script: file_count.py
 - The database designing: patterns.md
 - The dataset: \[the whole dataset will be shared once the paper is accepted\]
 - The codebook: codebook_cursorrules.md
@@ -31,10 +31,10 @@ To answer RQ3 and RQ4, we conducted a qualitative analysis on 51 .cursorrules fi
 
 ## Quantitative Analysis
 ### Crawler with a keyword-strategy
-crawler_cursorrules.py
+crawler_cursorrules
 
 ### Repo files counting without traversal
-files_count.py
+file_count.py
 
 ### Database design
 patterns.md
