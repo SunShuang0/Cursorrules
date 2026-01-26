@@ -8,7 +8,7 @@ from file import get_commit
 from file import get_file
 
 
-GITHUB_TOKEN = "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"
+GITHUB_TOKEN = ""
 
 # Function to check the API rate limit
 def check_rate_limit():
