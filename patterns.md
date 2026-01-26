@@ -2,7 +2,7 @@
 
 |Table Name|column_name|data_type|not_null|is_primary_key|
 |---|---|---|---|---|
-|files|raw_md5|TEXT|0|1|
+|**files**|raw_md5|TEXT|0|1|
 | |repo_id|INTEGER|1|0|
 | |owner_id|INTEGER|1|0|
 | |creator_login|TEXT|1|0|
@@ -38,7 +38,7 @@
 | |repo_created_at|TEXT|0|0|
 | |repo_updated_at|TEXT|0|0|
 | |file_url|TEXT|1|0|
-|repos|raw_md5|TEXT|0|1|
+|**repos**|raw_md5|TEXT|0|1|
 | |repo_id|INTEGER|1|0|
 | |repo_owner_id|INTEGER|1|0|
 | |repo_name|TEXT|1|0|
@@ -64,7 +64,7 @@
 | |repo_discussion|TEXT|0|0|
 |repo_files_count|repo_id|INTEGER|0|1|
 | |repo_files_count|INTEGER|0|0|
-|commits|raw_md5|TEXT|1|1|
+|**commits**|raw_md5|TEXT|1|1|
 | |commit_sha|TEXT|1|2|
 | |commit_time|TEXT|0|0|
 | |commit_author|TEXT|0|0|
@@ -81,7 +81,7 @@
 | |commit_patch|TEXT|0|0|
 | |commit_url|TEXT|0|0|
 | |file_commits_url|TEXT|1|0|
-|creators|raw_md5|TEXT|0|1|
+|**creators**|raw_md5|TEXT|0|1|
 | |creator_id|INTEGER|1|0|
 | |creator_login|TEXT|1|0|
 | |creator_repos|INTEGER|0|0|
@@ -99,7 +99,7 @@
 | |creator_type|TEXT|0|0|
 | |creator_company|TEXT|0|0|
 | |creator_blog|TEXT|0|0|
-|users|raw_md5|TEXT|0|1|
+|**users**|raw_md5|TEXT|0|1|
 | |user_id|INTEGER|1|0|
 | |user_login|TEXT|1|0|
 | |user_repos|INTEGER|0|0|
@@ -117,3 +117,4 @@
 | |user_type|TEXT|0|0|
 | |user_company|TEXT|0|0|
 | |user_blog|TEXT|0|0|
+
