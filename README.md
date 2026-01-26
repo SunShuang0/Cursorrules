@@ -2,7 +2,7 @@
 This is a study of .cursorrules files in GitHub open source projects.
 
 Here, we share the materials we produced in this study:
-- The rawler script: crawler_cursorrules.py
+- The rawler script: crawler_cursorrules
 - The repo files counting script: files_count.py
 - The database designing: patterns.md
 - The dataset: \[the whole dataset will be shared once the paper is accepted\]
