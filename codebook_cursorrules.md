@@ -14,10 +14,10 @@
 | | Exclusion Behaviors | Forbidden list, forbidden behaviors. |
 | | Prompt/Rule Example/Template | Examples or templates that specific targeting how to generate prompts, how to generate rules. |
 | | Rule File Description, Scopes & Nested Structures | Introduce the rule files' functions, scope domains, or nested structures (typically appear when there are multiple rule files). |
-| **Architecture and Integration** | Routing |  |
-| | Dependency Management & Injection |  |
-| | Http Architecture |  |
-| | Modular Architecture & Scalability |  |
+| **Architecture and Integration** | Dependency Management & Injection | Guides Cursor on how to select, install, manage, and update third-party dependencies. Includes: version, compatibility/migration guidance, upgrades, deprecation handling, dependency injection patterns. Excludes: specifies which dependencies to use and how to use them. (These should be coded as 'Languages, Stacks and Usage Guidance') |
+| | Http Architecture | Guides Cursor on how to design HTTP-based communication systems. It reflects architectural-level concerns. Includes: protocol usage, connection management, and request-response modeling. Excludes: runtime network handling. |
+| | Modular Architecture & Scalability | Guides Cursor on designing, implementing, and integrating components/modules in a modular and scalable way. Includes: API design strategies, component boundaries, module interfaces, middleware layers (as modular request/response pipelines), and strategies for scaling modules independently. |
+| | Routing | Guides Cursor on how to organize and manage the routing system in a project, or reminds Cursor to consider such matters. A nice routing design can improve system maintainability, reduce route conflicts, and lower coupling. It is a foundational element for implementing secure access control. Includes but is not limited to: using routing mechanisms provided by specific frameworks (such as Laravel, FastAPI, React Router), defining clear RESTful routes, modularizing route files, aligning routes with components or functional modules, and using dynamic or nested routing. |
 | **Build, Deployment and CI/CD** | CI/CD |  |
 | | Deployment & Release Management |  |
 | | Reference Documentation & Libraries |  |
