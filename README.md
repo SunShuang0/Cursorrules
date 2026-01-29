@@ -2,11 +2,12 @@
 This is a study of .cursorrules files in GitHub open source projects.
 
 Here, we share the materials we produced in this study:
-- The rawler script: crawler_cursorrules
+- The crawler script: crawler_cursorrules
 - The repo files counting script: file_count.py
 - The database designing: patterns.md
 - The dataset: \[the whole dataset will be shared once the paper is accepted\]
 - The codebook: codebook_cursorrules.md
+- 10 examples of .cursorrules files
 
 ## Overview of the study
 Prompts are the primary mechanism for communicating with AI agents and directly influence the quality and reliability of AI-generated code. As AI-assisted programming becomes widely adopted, modern tools increasingly combine dynamic conversational prompts with static configuration-like prompt files. Despite the growing trend, prior research has primarily focused on conversational prompts, while prompt files remain understudied.
