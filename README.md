@@ -7,7 +7,7 @@ Here, we share the materials we produced in this study:
 - The database designing: patterns.md
 - The dataset: \[the whole dataset will be shared once the paper is accepted\]
 - The codebook: codebook_cursorrules.md
-- 10 examples of .cursorrules files
+- 10 examples of .cursorrules files: .cursorrules Examples
 
 ## Overview of the study
 Prompts are the primary mechanism for communicating with AI agents and directly influence the quality and reliability of AI-generated code. As AI-assisted programming becomes widely adopted, modern tools increasingly combine dynamic conversational prompts with static configuration-like prompt files. Despite the growing trend, prior research has primarily focused on conversational prompts, while prompt files remain understudied.
